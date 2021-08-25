@@ -24,7 +24,7 @@ export default {
   data(){
     return {
       base: 'https://api.nytimes.com/svc/news/v3/content/all/all.json',
-      api_key: 'process.env.VUE_APP_api_key',
+      api_key: process.env.VUE_APP_api_key,
       news: [{
 
       }]
