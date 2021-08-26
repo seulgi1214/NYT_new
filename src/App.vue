@@ -15,6 +15,11 @@ export default {
 
 
 <style>
+#app {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 
 * {
   font-family: 'Poppins', sans-serif;
@@ -31,6 +36,7 @@ html, body, ul, ol, h1, h2 ,h3 ,h4 ,h5, p {
 a {
   text-decoration: none;
   color: #111111;
+  display: block;
 }
 
 nav {
@@ -51,9 +57,13 @@ article:not(:last-child) {
   border-bottom: none;
 }
 
+img {
+  display: block;
+}
+
 .article_img img {
   width: 350px;
-  display: block;
+
 }
 
 .home {

@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h2 class="comm_title">Now</h2>
+    <h2 class="comm_title">NOW</h2>
     <article class="realTime_article" :key="i" v-for="(item, i) in news">
       <div class="rt_headline">
         <p class="comm_sub_title">{{news[i].title}}</p>

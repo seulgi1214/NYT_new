@@ -10,7 +10,9 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "dotenv": "^10.0.0",
+    "swiper": "^5.3.7",
     "vue": "^3.0.0",
+    "vue-awesome-swiper": "^4.1.1",
     "vue-router": "^4.0.0-0"
   },
   "devDependencies": {

@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import TopStory from '../views/TopStory.vue'
 import RealTime from '../views/RealTime.vue'
+import Books from '../views/Books.vue'
+import Food from '../views/Food.vue'
 
 const routes = [
   {
@@ -13,7 +15,16 @@ const routes = [
     name: 'RealTime',
     component: RealTime
   },
-
+  {
+    path: '/books',
+    name: 'Books',
+    component: Books
+  },
+  {
+    path: '/food',
+    name: 'Food',
+    component: Food
+  },
 ]
 
 const router = createRouter({
