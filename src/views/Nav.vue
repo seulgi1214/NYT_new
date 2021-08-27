@@ -7,7 +7,7 @@
     <li><router-link to="/now">NOW</router-link></li>
     <li><router-link to="/books">BOOKS</router-link></li>
     <li><router-link to="/food">FOOD</router-link></li>
-    <li>MOVIE</li>
+    <li><router-link to="/movie">MOVIE</router-link></li>
   </ul>
 </nav>
 

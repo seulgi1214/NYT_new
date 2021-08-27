@@ -48,7 +48,7 @@ export default {
     },
     setResult(res) {
       this.news = res.results;
-      console.log(res);
+      //console.log(res);
     }
 
   }

@@ -3,6 +3,7 @@ import TopStory from '../views/TopStory.vue'
 import RealTime from '../views/RealTime.vue'
 import Books from '../views/Books.vue'
 import Food from '../views/Food.vue'
+import Movie from '../views/Movie.vue'
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: '/food',
     name: 'Food',
     component: Food
+  },
+  {
+    path: '/movie',
+    name: 'Movie',
+    component: Movie
   },
 ]
 
