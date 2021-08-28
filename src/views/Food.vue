@@ -105,4 +105,13 @@ export default {
   margin-right: 5px;
 }
 
+@media screen and (max-width: 700px) { 
+  .food_wrap {
+    width: 100%;
+  }
+  .food_wrap .food_img img {
+    width: 100%;
+  }
+}
+
 </style>

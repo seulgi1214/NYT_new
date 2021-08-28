@@ -108,4 +108,20 @@ export default {
   color:#646464;
 }
 
+@media screen and (max-width: 700px) {
+  .movie_wrap {
+    flex-direction: column;
+    margin-top: 0;
+  }
+.movie_wrap .img {
+  margin: 10px 0 10px 0;
+}
+.movie_wrap .img::after {
+  display: none;
+  }
+
+.movie_wrap .img img {
+  width: 100%;
+} 
+}
 </style>

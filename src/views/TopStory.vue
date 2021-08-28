@@ -72,4 +72,23 @@ export default {
 }
 
 
+@media screen and (max-width: 700px) { 
+  .topStory_article  { 
+    flex-direction: column;
+    } 
+  .topStory_article:nth-child(odd) {
+    flex-direction: column;
+  }
+  .topStory_article .ts_content {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .topStory_article:nth-child(odd) .ts_content {
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+}
+
+
+
 </style>
